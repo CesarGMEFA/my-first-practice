@@ -1,0 +1,148 @@
+:root {
+    --primary-pale-blue: hsl(225, 100%, 94%);
+    --primary-bright-blue: hsl(245, 75%, 52%);
+    --neutral-very-pale-blue: hsl(225, 100%, 98%);
+    --neutral-desaturated-blue: hsl(224, 23%, 55%);
+    --neutral-dark-blue: hsl(223, 47%, 23%); 
+    --hover-blue: hsl(245, 62%, 65%);
+    --weight_medium: 500;
+    --weight_bold: 700;
+    --weight_black: 900;
+    --font-primary: 'Red Hat Display', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--font-primary);
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/pattern-background-desktop.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: var(--primary-pale-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.card {
+    width: 27%;
+    min-width: 270px;
+    height: 580px;
+    background-color: white;
+    border-radius: 22px;
+}
+.card .card_img {
+    width: 100%;
+    border-start-start-radius: 22px;
+    border-start-end-radius: 22px;
+    align-self: center;
+}
+
+.card .card_info {
+    height: 65%;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.card .card_info  h1 {
+    color: var(--neutral-dark-blue);
+    font-weight: var(--weight_black);
+    font-size: 2.2rem;
+    margin-top: 3rem;
+}
+.card .card_info > p {
+    font-size: 1.6rem;
+    font-weight: var(--weight_medium);
+    color: var(--neutral-desaturated-blue);
+    margin: 15px 20px 20px;
+}
+.card .card_info .card_info--pay {
+    width: 85%;
+    height: 100px;
+    border-radius: 1.5rem;
+    background-color: var(--neutral-very-pale-blue);
+    
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    align-items: center;
+    justify-content: center;
+}
+.card .card_info .card_info--pay > span {
+    width: 50px;
+    height: 50px;
+    justify-self: center;
+    background-image: url(../images/icon-music.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.card .card_info .card_info--pay > div p:first-child {
+    color: var(--neutral-dark-blue);
+    font-weight: var(--weight_black);
+    font-size: 1.6rem;
+}
+.card .card_info .card_info--pay > div p:last-child {
+    color: var(--neutral-desaturated-blue);
+    font-size: 1.6rem;
+    font-weight: var(--weight_medium);
+}
+.card .card_info .card_info--pay > a {
+    color: var(--primary-bright-blue);
+    font-weight: var(--weight_bold);
+    font-size: 1.4rem;
+    justify-self: flex-end;
+    margin-inline-end: 20px;
+}
+.card .card_info .card_info--pay > a:hover {
+    text-decoration: none;
+    color: var(--hover-blue);
+}
+.card .card_info > button {
+    width: 85%;
+    height: 50px;
+    color: white;
+    font-weight: var(--weight_bold);
+    font-size: 1.4rem;
+    font-family: var(--font-primary);
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--primary-bright-blue);
+    box-shadow: 4px 14px 10px 3px rgba(56, 41, 224, 0.14), -4px 0px 10px 3px rgba(56, 41, 224, 0.14);
+    margin: 25px 0;
+}
+.card .card_info > button:hover {
+    background-color: var(--hover-blue);
+}
+.card .card_info > a {
+    color: var(--neutral-desaturated-blue);
+    font-weight: var(--weight_bold);
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.card .card_info > a:hover {
+    color: var(--neutral-dark-blue);
+}
+
+.attribution {
+    margin: 15px 0 10px;
+    color: var(--neutral-desaturated-blue);
+    font-weight: var(--weight_medium);
+    font-size: 1.2rem;
+}
+.attribution a:hover {
+    text-decoration: none;
+}
