@@ -32,8 +32,8 @@ https://imgur.com/gallery/GtPQ1Cp <<< Image desktop and mobile
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/site-for-desktop-and-try-to-make-it-responsive-without-media-queries-3cMFbeKMe)
+- Live Site URL: [Add live site URL here](https://order-summary-cesarm.netlify.app/)
 
 ## My process
 
