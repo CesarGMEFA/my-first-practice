@@ -38,7 +38,7 @@ body {
 .card {
     width: 27%;
     min-width: 270px;
-    height: 580px;
+    /* height: 580px; */
     background-color: white;
     border-radius: 22px;
 }
@@ -50,7 +50,6 @@ body {
 }
 
 .card .card_info {
-    height: 65%;
     text-align: center;
 
     display: flex;
