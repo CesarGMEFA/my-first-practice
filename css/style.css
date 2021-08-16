@@ -43,8 +43,8 @@ body {
 }
 .card .card_img {
     width: 100%;
-    border-start-start-radius: 22px;
-    border-start-end-radius: 22px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
     align-self: center;
 }
 
