@@ -40,11 +40,12 @@ body {
     min-width: 270px;
     background-color: white;
     border-radius: 22px;
+    overflow: hidden;
 }
 .card .card_img {
     width: 100%;
-    border-top-left-radius: 22px;
-    border-top-right-radius: 22px;
+    /* border-top-left-radius: 22px;
+    border-top-right-radius: 22px; */
     align-self: center;
 }
 
